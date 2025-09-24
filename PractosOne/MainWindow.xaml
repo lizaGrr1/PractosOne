@@ -30,10 +30,10 @@
                     <RowDefinition />
                     <RowDefinition />
                 </Grid.RowDefinitions>
-                <Button x:Name="btnFill" Content="Заполнить" Height="50" Width="150" Grid.Row="3" Click="btnFill_Click" Background="CadetBlue"/>
-                <Button x:Name="btnClear" Content="Стереть" Height="50" Width="150" Grid.Row="3" Grid.Column="1" Click="btnClear_Click" Background="CadetBlue"/>
+                <Button x:Name="btnFill" Content="Заполнить" Height="50" Width="150" Grid.Row="3" Click="btnFill_Click" Background="Green"/>
+                <Button x:Name="btnClear" Content="Стереть" Height="50" Width="150" Grid.Row="3" Grid.Column="1" Click="btnClear_Click" Background="Red"/>
                 <TextBox x:Name="tbSumm" Height="50" TextWrapping="Wrap" Width="150" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" IsReadOnly="True" />
-                <Button x:Name="btnCalc" Content="Рассчитать" Height="50" Width="150" Grid.Row="2" Click="btnCalc_Click" Background="CadetBlue"/>
+                <Button x:Name="btnCalc" Content="Рассчитать" Height="50" Width="150" Grid.Row="2" Click="btnCalc_Click" Background="Purple"/>
                 <Label Content="Сумма:" Width="200" Height="50" Grid.Column="1" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Bottom" />
                 <Label Content="Введите кол-во чисел:" Width="200" Height="50" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Bottom" />
                 
